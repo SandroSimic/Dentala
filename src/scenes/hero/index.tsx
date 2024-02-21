@@ -1,14 +1,8 @@
-import React from 'react';
-import useMediaQuery from '../../hooks/useMediaQuery';
 import heroImage from '../../assets/HeroImage.png';
 import wave from '../../assets/wave.svg';
 import { motion } from 'framer-motion';
 
-type Props = {};
-
-const Hero = (props: Props) => {
-  const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)');
-
+const Hero = () => {
   return (
     <section className='flex flex-col gap-16 md:h-full md:pb-0 overflow-hidden bg-gradient-primary'>
       {/* IMAGE AND MAIN HEADING */}

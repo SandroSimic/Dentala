@@ -1,4 +1,3 @@
-import React from 'react';
 import AButton from '../../shared/AButton';
 import { motion } from 'framer-motion';
 
