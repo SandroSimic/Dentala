@@ -1,4 +1,3 @@
-import React from 'react';
 import Dentist from './Dentist';
 import { Dentists } from '../../shared/types';
 import doctorImg from '../../assets/doctor1.jpg';
